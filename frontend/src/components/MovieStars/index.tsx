@@ -42,7 +42,7 @@ function Star ({fill} : StarProps){
     return <StarFull />
   }
   else{
-    <StarHalf />
+    return <StarHalf />
   }
 }
 
