@@ -48,7 +48,7 @@ function Star ({fill} : StarProps){
 
 
 
-function MovieStars({score}: Props) {
+function MovieStars({score}: Props)  {
 
   const fills = getFills(score);
 
