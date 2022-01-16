@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import {Movie} from "types/movie";
 import { useEffect, useState } from 'react';
@@ -18,7 +18,7 @@ function FormCard({movieId} : Props) {
     .then(resposta => {
         setMovie(resposta.data);
     })
- })
+ },[movieId]);
 
     return (
         <div className="dsmovie-form-container">
