@@ -15,3 +15,8 @@
 - VS Code
 - Git
 
+---
+
+#### 🔗 Link do aplicativo: 
+https://dsmovie-app.netlify.app/
+
